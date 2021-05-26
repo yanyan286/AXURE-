@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>局部变量</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/局部变量/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/局部变量/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u5" class="ax_default _二级标题">
+        <div id="u5_div" class=""></div>
+        <div id="u5_text" class="text ">
+          <p><span>自定义变量-局部变量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u6" class="ax_default _文本段落">
+        <div id="u6_div" class=""></div>
+        <div id="u6_text" class="text ">
+          <p><span>1. 只作用于某个部分，而非整体。</span></p><p><span><br></span></p><p><span>2. 这个部分指值的运算过程。在值的运算过程中，局部变量负责获取到某个目标的制定内容，然后参与到公式的运算中方。在完成这个过程后，局部变量就不再存在。也就是说，运算过程A中无法调用运算过程B中创建的局部变量。</span></p><p><span><br></span></p><p><span>3. 在进行合计的计算时，需要获取商品的数量和金额，然后通过乘法公式进行运算。而商品数量于金额都可能不是固定的值，所以无法直接写入公式，而必须通过局部变量进行获取，再插入到公式中进行运算。</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
